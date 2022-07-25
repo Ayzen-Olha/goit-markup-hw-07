@@ -1,0 +1,22 @@
+.auth {
+    display: flex;
+}
+
+.auth__link {
+    color: var(--main-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.auth__icon {
+    fill: var(--main-text-color);
+    margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.auth .auth__link+.auth__link {
+    margin-left: 50px;
+}

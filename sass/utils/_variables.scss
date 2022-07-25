@@ -1,21 +1,17 @@
-// :root {
+:root {
+    --main-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196f3;
+    --white-color: #ffffff;
+    --minor-bg-color: #2f303a;
+    --bgc-team-section: #f5f4fa;
+    --color-black: #000000;
+    --button-hover: #188CE8;
+    --icon-color: #afb1b8;
 
-//     // colors
+    /* rgba */
 
-//     --primaryColor: #757575;
-//     --secondaryColor: #212121;
-//     --accentColor: #2196f3;
-//     --bgcTeamColor: #f5f4fa;
-//     --secondaryBgColor: #2f303a;
-//     --iconColor: #afb1b8;
-//     --heroBtnHover: #188CE8;
-//     --whiteColor: #ffffff;
-//     --blackColor: #000000;
-
-//     // rgba colors
-
-//     --heroBgcColor: rgba(196, 196, 196, 1);
-//     --footerColor: rgba(255, 255, 255, 0.6);
-//     --placeholderColor: rgba(117, 117, 117, 0.5);
-
-// }
+    --hero-bgc: rgba(196, 196, 196, 1);
+    --footer-color: rgba(255, 255, 255, 0.6);
+    --color-placeholder: rgba(117, 117, 117, 0.5);
+}
