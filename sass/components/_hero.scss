@@ -14,13 +14,14 @@
     padding-bottom: 200px;
     max-width: 1600px;
     height: 600px;
+
+    &__title {
+        color: var(--white-color);
+        font-size: 44px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        line-height: 1.36;
+    }
 }
 
-.hero__title {
-    color: var(--white-color);
-    font-size: 44px;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    line-height: 1.36;
-}

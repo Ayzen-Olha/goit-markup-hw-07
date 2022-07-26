@@ -1,12 +1,10 @@
 .link {
-    &:hover, &:focus {
+    &:hover, 
+    &:focus {
     color: var(--accent-text-color);
-    }
-}
 
-.link:hover,
-.link:focus {
-    & .auth__icon {
-        fill: var(--accent-text-color);
+        & .auth__icon {
+            fill: var(--accent-text-color);
+        }
     }
 }

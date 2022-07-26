@@ -4,12 +4,13 @@
     font-weight: bold;
     line-height: 1.2;
     color: var(--accent-text-color);
+
+    &__studio--black {
+        color: var(--color-black);
+    }
+
+    &__studio--white {
+        color: var(--white-color);
+    }
 }
 
-.logo__studio--black {
-    color: var(--color-black);
-}
-
-.logo__studio--white {
-    color: var(--white-color);
-}

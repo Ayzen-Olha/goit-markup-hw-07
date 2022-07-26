@@ -2,31 +2,32 @@
     text-align: left;
     width: 570px;
     display: flex;
+
+    &__input {
+        padding: 15px 16px;
+        height: 50px;
+
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: transparent;
+        color: var(--white-color);
+
+        &:hover,
+        &:focus {
+            border-color: var(--accent-text-color);
+            cursor: pointer;
+        }
+    }
+
+    &__button {
+        padding: 10px 28px 10px 29px;
+        margin-left: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        fill: var(--white-color);
+    }
 }
 
-.signup__input {
-    padding: 15px 16px;
-    height: 50px;
-
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background-color: transparent;
-    color: var(--white-color);
-}
-
-.signup__input:hover,
-.signup__input:focus {
-    border-color: var(--accent-text-color);
-    cursor: pointer;
-}
-
-.signup__button {
-    padding: 10px 28px 10px 29px;
-    margin-left: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.signup__icon {
-    fill: var(--white-color);
-}
